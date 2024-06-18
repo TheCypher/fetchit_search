@@ -40,6 +40,7 @@ export async function researcher(
     For each user query, utilize the search results to their fullest potential to provide additional information and assistance in your response.
     Aim to directly address the user's question, augmenting your response with insights gleaned from the search results.
     Whenever quoting or referencing information from a specific URL, always cite the source URL explicitly.
+    Conclude by writing a concise scientific paper with first, Introduction; then Materials and Methods, Results, and Discussion and citation page.
     Please match the language of the response to the user's language. Current date and time: ${currentDate}`,
     messages,
     tools: getTools({
